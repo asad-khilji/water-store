@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Water Store Plus | Budd Lake, NJ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #123;
+      background: #f4fbff;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0077b6, #00b4d8);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin: 0 0 10px;
+    }
+
+    header p {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    nav {
+      background: #023e8a;
+      text-align: center;
+      padding: 14px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .intro {
+      text-align: center;
+    }
+
+    .intro h2,
+    .pricing h2,
+    .contact h2 {
+      color: #0077b6;
+      font-size: 32px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      width: 280px;
+      box-shadow: 0 8px 24px rgba(0, 80, 120, 0.15);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #023e8a;
+      font-size: 24px;
+    }
+
+    .price {
+      font-size: 34px;
+      color: #00a8e8;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .button {
+      display: inline-block;
+      background: #0077b6;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .button:hover {
+      background: #023e8a;
+    }
+
+    .contact {
+      text-align: center;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 80, 120, 0.12);
+    }
+
+    footer {
+      background: #03045e;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Water Store Plus</h1>
+    <p>Fresh Water Refills in Budd Lake, NJ</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#pricing">Water Refills</a>
+    <a href="#contact">Visit Us</a>
+  </nav>
+
+  <section id="about" class="intro">
+    <h2>Clean, Great-Tasting Water Refills</h2>
+    <p>
+      Visit The Water Store Plus in Budd Lake, NJ for high-quality purified,
+      alkaline, and hydrogen water refills. Bring your reusable bottles and
+      refill with fresh water at affordable prices.
+    </p>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2 style="text-align:center;">Our Water Refill Prices</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Purified Water</h3>
+        <p>Clean, refreshing water for everyday use.</p>
+        <div class="price">$4.50</div>
+        <p>per gallon</p>
+        <a class="button" href="#contact">Refill Today</a>
+      </div>
+
+      <div class="card">
+        <h3>Alkaline Water</h3>
+        <p>Smooth-tasting water with a higher pH level.</p>
+        <div class="price">$6.00</div>
+        <p>per gallon</p>
+        <a class="button" href="#contact">Refill Today</a>
+      </div>
+
+      <div class="card">
+        <h3>Hydrogen Water</h3>
+        <p>Fresh hydrogen water refills at a great value.</p>
+        <div class="price">$2.00</div>
+        <p>per gallon</p>
+        <a class="button" href="#contact">Refill Today</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Visit Our Water Store</h2>
+    <p><strong>Location:</strong> Budd Lake, NJ</p>
+    <p><strong>Services:</strong> Purified, Alkaline, and Hydrogen Water Refills</p>
+    <p>Bring your bottles and refill today.</p>
+    <a class="button" href="tel:">Call Now</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 The Water Store Plus. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
